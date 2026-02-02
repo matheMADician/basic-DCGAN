@@ -33,7 +33,7 @@ transform = transforms.Compose([
 ])
 
 loader = load.Get_loader(
-    "mnist", batch_size,
+    "custom", batch_size,
     "dataset/", transform= transform
 )
 
